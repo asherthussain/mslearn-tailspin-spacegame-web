@@ -47,10 +47,10 @@ steps:
   displayName: 'Prepare SonarCloud analysis'
   inputs:
     SonarCloud: 'SonarCloud connection 1'
-    organization: '$(SonarOrganization)'
+    organization: 'asherthussain'
     scannerMode: 'MSBuild'
-    projectKey: '$(SonarProjectKey)'
-    projectName: '$(SonarProjectName)'
+    projectKey: 'asherthussain_mslearn-tailspin-spacegame-web'
+    projectName: 'asherthussain_mslearn-tailspin-spacegame-web'
     projectVersion: '$(Build.BuildNumber)'
     extraProperties: |
      sonar.cs.opencover.reportsPaths=$(Build.SourcesDirectory)/TestResults/Coverage/coverage.opencover.xml
