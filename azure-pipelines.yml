@@ -49,7 +49,7 @@ steps:
     SonarCloud: 'SonarCloud connection 1'
     organization: 'asherthussain'
     scannerMode: 'MSBuild'
-    projectKey: 'asherthussain_mslearn-tailspin-spacegame-web'
+    projectKey: '0825a0655296c45a7b4e22f8fbb3b7d559787655'
     projectName: 'asherthussain_mslearn-tailspin-spacegame-web'
     projectVersion: '$(Build.BuildNumber)'
     extraProperties: |
